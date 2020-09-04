@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="" />
+    <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ExoSalaires.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExoSalaires.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,7 +13,9 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,6 +124,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
       <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
       <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1h2hivQ1TYa0BDolM4yLeCi04tx" />
@@ -132,7 +139,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="net.vektah.codeglance.config.ConfigEntry" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -147,7 +154,11 @@
       <workItem from="1599215292517" duration="701000" />
       <workItem from="1599216002439" duration="366000" />
       <workItem from="1599218220560" duration="868000" />
-      <workItem from="1599219099010" duration="520000" />
+      <workItem from="1599219099010" duration="1289000" />
+      <workItem from="1599220399034" duration="247000" />
+      <workItem from="1599220654482" duration="315000" />
+      <workItem from="1599220979904" duration="388000" />
+      <workItem from="1599221376453" duration="1312000" />
     </task>
     <servers />
   </component>
@@ -159,13 +170,13 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2348" y="399" width="414" height="244" key="#Composer/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599215251655" />
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599219315433">
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599221336805">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599219315433" />
-    <state x="2055" y="153" width="1009" height="737" key="SettingsEditor" timestamp="1599219617774">
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599221336805" />
+    <state x="2055" y="75" width="1139" height="815" key="SettingsEditor" timestamp="1599221530129">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2055" y="153" width="1009" height="737" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599219617774" />
+    <state x="2055" y="75" width="1139" height="815" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599221530129" />
   </component>
 </project>
