@@ -19,10 +19,14 @@
         <h1>Bienvenue au ExoSalaries! ✅</h1>
         Ici vous pouvez faire votre choix:
         <ul class="list-group">
-            <li class="list-group-item"><a name="salarie" id="salarie" class="btn btn-primary"
-                                                  href="{{ path('salaries_index') }}" role="button">Salarie</a></li>
-            <li class="list-group-item"><a name="entreprise" id="entreprise" class="btn btn-primary"
-                                           href="{{ path('entreprise_index') }}" role="button">Entreprise</a></li>
+            <li class="list-group-item">
+                <a class="btn btn-primary" href="{{ path('salaries_index') }}" role="button">Salarie</a>
+                <a class="btn btn-primary" href="{{ path('salarie_add') }}" role="button">Ajouter</a>
+            </li>
+            <li class="list-group-item">
+                <a class="btn btn-primary" href="{{ path('entreprise_index') }}" role="button">Entreprise</a>
+                <a class="btn btn-primary" href="{{ path('entreprise_add') }}" role="button">Ajouter</a>
+            </li>
         </ul>
     </div>
 {% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block contenu %}
+    <div class="container mt-4">
+        {% if editMode %}
+            <h1>Modification</h1>
+        {% else %}
+            <h1>Ajout</h1>
+        {% endif %}
+
+        {{ form(form) }}
+
+        <a class="btn btn-primary mt-2 mb-4" href="{% if editMode %}
+            {{ path('salaries_index') }}
+        {% else %}
+            {{ path('home') }}
+        {% endif %}" role="button">Back</a>
+    </div>
+{% endblock %}
+

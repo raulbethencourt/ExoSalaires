@@ -24,14 +24,14 @@
                     <td>{{ salarie.ville }}</td>
                     <td>{{ salarie.dateEmbauche | date('d/m/Y') }}</td>
                     <td>{{ salarie.entreprise.raisonsociale }}</td>
+                    <td><a class="btn btn-primary" href="{{ path('salarie_edit',
+                            {'id':salarie.id}) }}" role="button">Modifier</a></td>
+                    <td><a class="btn btn-primary" href="{{ path('salarie_delete',
+                            {'id':salarie.id}) }}" role="button">Suprimmer</a></td>
                 </tr>
             {% endfor %}
             </tbody>
         </table>
-
-        <div class="container mt-3">
-            <a class="btn btn-primary" href="{{ path('salarie_edit', {'id':salarie.id}) }}" role="button">Modifier</a>
-        </div>
 
         <div class="container">
             <a name="home" id="home" class="btn btn-primary" href="{{ path('home') }}" role="button">Back</a>

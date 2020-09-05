@@ -23,9 +23,15 @@
                     <td>{{ entreprise.siret }}</td>
                     <td>{{ entreprise.cp }}</td>
                     <td>{{ entreprise.ville }}</td>
-                    {% for salarie in entreprise.salaries %}
-                        <td>{{ salarie.prenom  ~ ' ' ~ salarie.nom }}</td>
-                    {% endfor %}
+                    <td>
+                        {% for salarie in entreprise.salaries %}
+                            {{ salarie.prenom  ~ ' ' ~ salarie.nom }}<br>
+                        {% endfor %}
+                    </td>
+                    <td><a class="btn btn-primary" href="{{ path('entreprise_edit',
+                            {'id':entreprise.id}) }}" role="button">Modifier</a></td>
+                    <td><a class="btn btn-primary" href="{{ path('entreprise_delete',
+                            {'id':entreprise.id}) }}" role="button">Suprimmer</a></td>
                 </tr>
             {% endfor %}
             </tbody>
