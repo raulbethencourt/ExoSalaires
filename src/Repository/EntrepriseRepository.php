@@ -19,6 +19,17 @@ class EntrepriseRepository extends ServiceEntityRepository
         parent::__construct($registry, Entreprise::class);
     }
 
+    public function getAll()
+    {
+        $em = $this->getEntityManager();
+        $query = $em->createQuery(
+            'SELECT e
+                FROM App\Entity\Entreprise e
+                ORDER BY e.id DESC '
+        );
+        return $query->execute();
+    }
+
     // /**
     //  * @return Entreprise[] Returns an array of Entreprise objects
     //  */

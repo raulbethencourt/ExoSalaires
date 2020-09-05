@@ -1,20 +1,34 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello SalarieController!{% endblock %}
+{% block contenu %}
+    <div class="container mt-4">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>SALARIE</th>
+                <th>ADRESSE</th>
+                <th>CP</th>
+                <th>VILLE</th>
+                <th>DATE EMBAUCHE</th>
+                <th>ENTREPRISE</th>
+            </tr>
+            </thead>
+            <tbody>
 
-{% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+            {% for salarie in salaries %}
+                <tr>
+                    <td><a href="{{ path('salarie_show', {'id':salarie.id}) }}">
+                            {{ salarie.nom ~ ' ' ~ salarie.prenom }}</a></td>
+                    <td>{{ salarie.adresse }}</td>
+                    <td>{{ salarie.cp }}</td>
+                    <td>{{ salarie.ville }}</td>
+                    <td>{{ salarie.dateEmbauche | date('d/m/Y') }}</td>
+                    <td>{{ salarie.entreprise.raisonsociale }}</td>
+                </tr>
+            {% endfor %}
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ '/home/raulbethencourt/sites/exoSalaires/ExoSalaires/src/Controller/SalarieController.php'|file_link(0) }}">src/Controller/SalarieController.php</a></code></li>
-        <li>Your template at <code><a href="{{ '/home/raulbethencourt/sites/exoSalaires/ExoSalaires/templates/salarie/index.html.twig'|file_link(0) }}">templates/salarie/index.html.twig</a></code></li>
-    </ul>
-</div>
+            </tbody>
+        </table>
+    </div>
 {% endblock %}
+

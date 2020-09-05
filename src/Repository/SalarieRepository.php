@@ -19,6 +19,17 @@ class SalarieRepository extends ServiceEntityRepository
         parent::__construct($registry, Salarie::class);
     }
 
+    public function getAll()
+    {
+        $em = $this->getEntityManager();
+        $query = $em->createQuery(
+            'SELECT s
+                FROM App\Entity\Salarie s
+                ORDER BY s.dateEmbauche DESC'
+        );
+        return $query->execute();
+    }
+
     // /**
     //  * @return Salarie[] Returns an array of Salarie objects
     //  */

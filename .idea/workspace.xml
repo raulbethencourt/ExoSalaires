@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ExoSalaires.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ExoSalaires.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/SalarieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SalarieController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Salarie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Salarie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/EntrepriseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntrepriseRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/SalarieRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/SalarieRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/entreprise/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entreprise/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/salarie/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salarie/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +156,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1h2hivQ1TYa0BDolM4yLeCi04tx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -135,11 +166,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="net.vektah.codeglance.config.ConfigEntry" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -158,25 +190,83 @@
       <workItem from="1599220399034" duration="247000" />
       <workItem from="1599220654482" duration="315000" />
       <workItem from="1599220979904" duration="388000" />
-      <workItem from="1599221376453" duration="1312000" />
+      <workItem from="1599221376453" duration="8134000" />
+      <workItem from="1599242971531" duration="12566000" />
+      <workItem from="1599255878240" duration="491000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2411" y="147" width="826" height="693" key="#CLI_Interpreters" timestamp="1599255449299">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2411" y="147" width="826" height="693" key="#CLI_Interpreters/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255449299" />
     <state x="2348" y="399" width="414" height="244" key="#Composer" timestamp="1599215251655">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2348" y="399" width="414" height="244" key="#Composer/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599215251655" />
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599221336805">
+    <state x="2188" y="198" width="734" height="646" key="#Inspections" timestamp="1599224729976">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599221336805" />
-    <state x="2055" y="75" width="1139" height="815" key="SettingsEditor" timestamp="1599221530129">
+    <state x="2188" y="198" width="734" height="646" key="#Inspections/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599224729976" />
+    <state x="2154" y="178" width="802" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599227533249">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2055" y="75" width="1139" height="815" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599221530129" />
+    <state x="2154" y="178" width="802" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599227533249" />
+    <state x="2338" y="202" width="433" height="638" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1599247637123">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2338" y="202" width="433" height="638" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599247637123" />
+    <state x="2292" y="275" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599225889168">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2292" y="275" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599225889168" />
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599255577991">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255577991" />
+    <state width="247" height="458" key="HiddenNamespacesPopup" timestamp="1599227580981">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="247" height="458" key="HiddenNamespacesPopup/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599227580981" />
+    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor" timestamp="1599255860360">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255860360" />
+    <state width="498" height="445" key="SwitcherDM" timestamp="1599247901363">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state width="498" height="445" key="SwitcherDM/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599247901363" />
+    <state x="2609" y="391" width="441" height="206" key="SymfonyPathDialog" timestamp="1599255460351">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2609" y="391" width="441" height="206" key="SymfonyPathDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255460351" />
+    <state x="2397" y="286" width="316" height="471" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1599227842102">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2397" y="286" width="316" height="471" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599227842102" />
+    <state x="2680" y="375" width="625" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1599246842796">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2680" y="375" width="625" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599246842796" />
+    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1599253513135">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599253513135" />
   </component>
 </project>
