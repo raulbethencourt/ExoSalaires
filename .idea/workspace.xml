@@ -23,16 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/SalarieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SalarieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Salarie.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Salarie.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/EntrepriseRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EntrepriseRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/SalarieRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/SalarieRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/entreprise/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entreprise/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/entreprise/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entreprise/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/salarie/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salarie/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/salarie/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salarie/show.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +167,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -193,6 +189,8 @@
       <workItem from="1599221376453" duration="8134000" />
       <workItem from="1599242971531" duration="12566000" />
       <workItem from="1599255878240" duration="491000" />
+      <workItem from="1599309625831" duration="636000" />
+      <workItem from="1599311099259" duration="4752000" />
     </task>
     <servers />
   </component>
@@ -224,6 +222,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2188" y="198" width="734" height="646" key="#Inspections/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599224729976" />
+    <state x="2154" y="178" width="802" height="686" key="#Intentions" timestamp="1599311612329">
+      <screen x="1600" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2154" y="178" width="802" height="686" key="#Intentions/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599311612329" />
     <state x="2154" y="178" width="802" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599227533249">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -244,10 +246,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state width="247" height="458" key="HiddenNamespacesPopup/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599227580981" />
-    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor" timestamp="1599255860360">
+    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor" timestamp="1599315120417">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255860360" />
+    <state x="2260" y="83" width="1139" height="815" key="SettingsEditor/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599315120417" />
     <state width="498" height="445" key="SwitcherDM" timestamp="1599247901363">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -264,9 +266,9 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2680" y="375" width="625" height="294" key="org.intellij.images.editor.actions.BackgroundImageDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599246842796" />
-    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1599253513135">
+    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1599313839886">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599253513135" />
+    <state x="2223" y="228" width="672" height="678" key="search.everywhere.popup/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599313839886" />
   </component>
 </project>

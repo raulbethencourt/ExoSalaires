@@ -1,6 +1,14 @@
 {% extends "base.html.twig" %}
 
 {% block contenu %}
-    <h1>{{ entreprise.raisonSociale ~ ' ' ~ entreprise.ville }}</h1>
+    <div class="container mt-4">
+        <h1>{{ entreprise.raisonSociale ~ ' ' ~ entreprise.ville }}</h1>
+
+        <div class="container">
+            <a name="entreprise-btn" id="btn" class="btn btn-primary" href="{{ path('entreprise_index') }}"
+               role="button">Back</a>
+        </div>
+    </div>
+
 {% endblock %}
 

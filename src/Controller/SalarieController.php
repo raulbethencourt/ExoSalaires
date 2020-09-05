@@ -3,7 +3,9 @@
 namespace App\Controller;
 
 use App\Entity\Salarie;
+use Doctrine\Persistence\ObjectManager;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -14,6 +16,17 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class SalarieController extends AbstractController
 {
+
+    public function addSalarie(Salarie $salarie = null, Request $request, ObjectManager $manager)
+    {
+        if (!$salarie)
+        {
+            $salarie = new Salarie();
+        }
+
+
+    }
+
     /**
      * @Route("/", name="salaries_index")
      */
