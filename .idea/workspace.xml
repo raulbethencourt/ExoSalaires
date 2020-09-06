@@ -22,16 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EntrepriseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/SalarieController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/SalarieController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/entreprise/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/entreprise/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/salarie/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/salarie/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="51e3e95b-5611-40e8-94b8-4ed0194ecfe1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -168,7 +159,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/symfony/framework-bundle/Controller/AbstractController.php" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../grafikart/www/php/Blog" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -195,6 +186,7 @@
       <workItem from="1599309625831" duration="636000" />
       <workItem from="1599311099259" duration="6935000" />
       <workItem from="1599331726577" duration="14212000" />
+      <workItem from="1599392384405" duration="125000" />
     </task>
     <servers />
   </component>
@@ -246,10 +238,10 @@
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
     <state x="2292" y="275" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599340858059" />
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599255577991">
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl" timestamp="1599392499263">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599255577991" />
+    <state x="2341" y="265" width="426" height="520" key="FileChooserDialogImpl/1600.0.1920.1080/0.103.1600.900@1600.0.1920.1080" timestamp="1599392499263" />
     <state width="247" height="458" key="HiddenNamespacesPopup" timestamp="1599227580981">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
